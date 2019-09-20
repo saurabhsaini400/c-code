@@ -9,7 +9,7 @@ int main() {
          scanf("%d/n",&a[i]);}
          for(i=0;i<n;i++){
          for(p=1;p<=a[i];p++){
-             sum=sum+(p%m)*(p%m);
+             sum=sum+2*(p%m)-1;
          }
          printf("%d\n",sum);
          sum=q;
